@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCIAL SOLUTIONS - Impulsa tu presencia digital</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            background: linear-gradient(to bottom, #f4f4f4, #dcdcdc);
+            background-image: url('social solutions.jpeg'); /* https://drive.google.com/file/d/1CGEE7b9lrxUmYrwbKIkDRL5pbwxxfMLn/view?usp=drive_link */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: rgba(41, 128, 185, 0.8); /* Color de fondo con transparencia */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            animation: backgroundChange 10s infinite alternate;
+        }
+        @keyframes backgroundChange {
+            0% { background-color: rgba(41, 128, 185, 0.8); }
+            50% { background-color: rgba(52, 152, 219, 0.8); }
+            100% { background-color: rgba(41, 128, 185, 0.8); }
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            animation: textMove 2s ease-in-out infinite alternate;
+        }
+        @keyframes textMove {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-5px); }
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(52, 73, 94, 0.9); /* Color de fondo con transparencia */
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: rgba(44, 62, 80, 0.9); /* Color de fondo con transparencia */
+            color: #3498db;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.6); /* Bloque con transparencia aumentada */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        section {
+            padding: 20px;
+        }
+        section h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: rgba(52, 73, 94, 0.9); /* Color de fondo con transparencia */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            background-color: rgba(255, 255, 255, 0.6); /* Bloque de formulario con transparencia aumentada */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            transition: border-color 0.3s ease;
+        }
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border-color: #2c3e50;
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SOCIAL SOLUTIONS</h1>
+    <p>Impulsa tu presencia digital</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#casos-de-exito">Casos de Éxito</a></li>
+        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <section id="inicio" class="card">
+        <h2>Bienvenidos</h2>
+        <p>En SOCIAL SOLUTIONS, nos especializamos en potenciar la presencia digital de las empresas. Con estrategias personalizadas, ayudamos a nuestros clientes a conectar con su audiencia y a destacar en el mundo digital.</p>
+    </section>
+
+    <section id="servicios" class="card">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Gestión de Redes Sociales</li>
+            <li>Creación de Contenido</li>
+            <li>Estrategia de Marketing Digital</li>
+            <li>Optimización SEO</li>
+            <li>Publicidad en Redes Sociales</li>
+            <li>Desarrollo Web Profesional</li>
+        </ul>
+    </section>
+
+    <section id="casos-de-exito" class="card">
+        <h2>Casos de Éxito</h2>
+        <article>
+            <h3>Transportes Global</h3>
+            <p>Incrementamos su visibilidad en redes sociales en un 200% en 6 meses.</p>
+        </article>
+        <article>
+            <h3>Logística Continental</h3>
+            <p>Mejoramos su servicio al cliente mediante la implementación de chatbots.</p>
+        </article>
+        <article>
+            <h3>Transporte Internacional S.A.</h3>
+            <p>Optimización SEO que resultó en un aumento del 60% en tráfico orgánico.</p>
+        </article>
+    </section>
+
+    <section id="sobre-nosotros" class="card">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una agencia con experiencia en el sector de transporte y logística, comprometidos con la excelencia y la innovación. Nuestro equipo de profesionales trabaja con pasión para llevar tu marca al siguiente nivel.</p>
+    </section>
+
+    <section id="contacto" class="card">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 SOCIAL SOLUTIONS. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
